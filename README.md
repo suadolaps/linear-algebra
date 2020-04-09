@@ -1,4 +1,4 @@
-#Linear Algebra Exercises
+# Linear Algebra Exercises
 Course: [Mathematics for Machine Learning](https://www.coursera.org/courses?query=mathematics%20for%20machine%20learning "Mathematics for Machine Learning")
 
 The linear algebra section of the course involved working on four applications:
@@ -8,7 +8,7 @@ The linear algebra section of the course involved working on four applications:
 
 3. **Gram-Schmidt Process**: This involved writing a function that forms an orthonormal basis from a set of vectors. 
 
-##[Identifying Special Matrices]()
+## [Identifying Special Matrices](https://github.com/suadolaps/linear-algebra/blob/master/IdentifyingSpecialMatrices.ipynb)
 With Gaussian elimination, we want all the numbers below the leading diagonal to be 0. This changes a matrix into row echelon form and allows us to solve systems on equation.
 
 In this exercise, I worked on a functions that fixed each row of a 4 x 4 matrix. Before completing this exercise, I manually worked on a 4x4 matrix, changing it to row echelon form to help me visualise the process each step of the way. This made it easier to transfer my mathematical knowledge to code. 
@@ -18,4 +18,4 @@ In this exercise, I worked on a functions that fixed each row of a 4 x 4 matrix.
 
 This process is carried out for each of the rows, until all the elements below the leading diagonal have values of zero. 
 
-##[Reflecting Bear]()
+## [Reflecting Bear](https://github.com/suadolaps/linear-algebra/blob/master/ReflectingBear.ipynb)
