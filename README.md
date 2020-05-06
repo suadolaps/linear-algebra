@@ -19,3 +19,17 @@ In this exercise, I worked on a functions that fixed each row of a 4 x 4 matrix.
 This process is carried out for each of the rows, until all the elements below the leading diagonal have values of zero. 
 
 ## [Reflecting Bear](https://github.com/suadolaps/linear-algebra/blob/master/ReflectingBear.ipynb)
+The aim of this exercise was to construct a function that returns the result of applying a transformation matrix on a vector. In this case, the transformation being applied to bear’s basis (the vector) is a reflection. As bear’s vectors are not orthonormal, the first step involved changing the basis using the Gram-Schmidt process. 
+
+To transform a vector, r, you multiply it by the transformation matrix to obtain the new position of the vector. 
+
+## [Gram-Schmidt](https://github.com/suadolaps/linear-algebra/blob/master/GramSchmidtProcess.ipynb)
+
+In this exercise, I wrote a function that performs the Gram-Schmidt process on a set of four basis vectors, and using the learnings from that rule, I wrote a general function which performs the Gram-Schmidt process for an arbitrary number vectors. 
+
+The steps include:
+
+1. Ensuring each vector is orthogonal to the vectors before it. This is done by subtracting previous vectors from the vector being worked on to take into account any overlap.
+2. The vector is then normalised (by dividing it by its modulus)
+
+As step 1 is repeated with every vector that comes before the vector being worked on, a for-loop can be used to execute the process before the vector is normalised. 
